@@ -53,13 +53,13 @@ body {
 }
 
 .clickable {
-  color: rgb(102, 179, 255);
+  color: rgb(81, 164, 247);
   cursor: pointer;
   user-select: none;
 }
 
 .clickable:hover {
-  color: rgb(9, 110, 211);
+  color: rgb(0, 81, 161);
 }
 
 /* Images Container */
