@@ -35,7 +35,8 @@ body {
 /* Navigation */
 .navigation-container {
   position: fixed;
-  top: 0;
+  top: -20px;
+  border-top: 20px solid whitesmoke;
 }
 
 .navigation-items {
@@ -44,28 +45,27 @@ body {
 }
 
 .background {
-  background: whitesmoke;
   position: fixed;
   right: 0;
   width: 100%;
+  background: whitesmoke;
   height: 60px;
   z-index: -1;
 }
 
 .clickable {
-  color: rgb(81, 164, 247);
+  color: dodgerblue;
   cursor: pointer;
   user-select: none;
 }
 
 .clickable:hover {
-  color: rgb(0, 81, 161);
+  color: rgb(0, 99, 199);
 }
 
 /* Images Container */
 .images-container {
   width: 800px;
-
   margin-top: 50px;
 }
 
@@ -98,7 +98,7 @@ body {
 
 /* Save Confirmation */
 .save-confirmed {
-  background: rgb(197, 190, 190);
+  background: white;
   padding: 8px 16px;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -120,6 +120,7 @@ body {
     font-size: 0.9rem;
     text-align: justify;
   }
+
   .images-container {
     width: 100%;
   }
